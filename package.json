@@ -1,6 +1,6 @@
 {
-  "name": "ganache",
-  "productName": "Ganache",
+  "name": "@shyftnetwork/shyft_ganache",
+  "productName": "ShyftGanache",
   "version": "1.0.1",
   "description": "Personal Blockchain for Ethereum",
   "main": "./src/init.js",
@@ -26,7 +26,7 @@
       "target": "AppImage",
       "icon": "./resources/icons/png/",
       "category": "Development",
-      "executableName": "Ganache"
+      "executableName": "ShyftGanache"
     }
   },
   "config": {
@@ -53,7 +53,7 @@
         "categories": [
           "Development"
         ],
-        "homepage": "https://truffleframework.com"
+        "homepage": "https://www.shyft.network"
       },
       "github_repository": {
         "owner": "",
@@ -71,7 +71,7 @@
         "packageVersion": "<%= version %>.0",
         "packageName": "<%= productName %>",
         "packageDescription": "Personal blockchain for Ethereum development",
-        "publisher": "CN=Consensys Inc, O=Consensys Inc, L=New York, S=New York, C=US",
+        "publisher": "CN=Shyft Network, O=Shyft Network, L=Barbardos, S=Saint James, C=BRB",
         "windowsKit": "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.16299.0\\x64",
         "assets": "./resources/appx",
         "manifest": "./AppXManifest.xml",
@@ -84,7 +84,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/ganache.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_ganache.git"
   },
   "author": {
     "name": "Truffle",
@@ -93,7 +93,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/ganache/issues"
+    "url": "https://github.com/shyftnetwork/shyft_ganache/issues"
   },
   "keywords": [
     "ganache",
@@ -101,7 +101,7 @@
     "blockchain",
     "truffle"
   ],
-  "homepage": "https://github.com/trufflesuite/ganache#readme",
+  "homepage": "https://github.com/shyftnetwork/shyft_ganache#readme",
   "devDependencies": {
     "asar": "^0.13.0",
     "babel-core": "^6.21.0",
@@ -147,7 +147,7 @@
     "electron-squirrel-startup": "^1.0.0",
     "ethereumjs-units": "^0.2.0",
     "find-process": "^1.1.0",
-    "ganache-cli": "^6.0.3",
+    "@shyftnetwork/shyft_ganache-cli": "^6.0.5",
     "lodash": "^3.10.1",
     "moment": "^2.17.1",
     "moment-timezone": "^0.5.11",
